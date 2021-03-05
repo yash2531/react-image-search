@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.title{
+  text-align: center;
+  font-size: 2.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+}
+.inpt {
+  height: 30px;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  outline: none;
+  border: 2px solid lightgray;
+  border-radius: 25px;
+  text-align: center;
+  font-family: "PT Sans";
+  color: gray;
+}
+
+.images-bg {
+  margin: 2% 25% 2% 25%;
+  background-color: whitesmoke;
+  height: 700px;
+  overflow-y: scroll;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.search-btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+.img-sty {
+  width: 100%;
+}
+
+.like-btn {
+  float: left;
+  height: 30px;
+  width: 50px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.image-footer {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.likes {
+  font-family: "PT Sans";
+  float: left;
+  width: 150px;
+  margin: 0px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.img-bg {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.username {
+  padding: 10px 0px;
+  font-family: "PT Sans";
+}
+
+.modal {
+  position: fixed;
+  margin: 2% 35%;
+  width: 30%;
+  height: 200px;
+  z-index: 2;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.modal-txt {
+  text-align: center;
+  font-family: "PT Sans";
+  padding: 5px;
+}
+
+.tag {
+  float: left;
+  background-color: lightsteelblue;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.close {
+  float: right;
+  font-family: "PT Sans";
+  width: 15px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: lightsteelblue;
+  border-radius: 3px;
+}
+
+.likespan {
+  color: blue;
+}
+
+.w3-animate-zoom {
+  animation:animatezoom 0.2s
+}
+
+@keyframes animatezoom {
+  from{transform:scale(0)} 
+  to{transform:scale(1)}
+}
